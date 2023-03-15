@@ -1,7 +1,7 @@
 variable "security_group_name" {
   description = "Name of the Security Group."
   type        = string
-  default     = "myflowsg"
+  default     = "securitytesting"
 }
 variable "subnet_id" {
   description = "The VPC Subnet ID to launch in."
