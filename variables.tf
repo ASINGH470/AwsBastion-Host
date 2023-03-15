@@ -1,7 +1,7 @@
 
 variable "AWS_ACCESS_KEY" {
-    default = ""
+  default = ""
 }
 variable "AWS_SECRET_KEY" {
-    default = ""
+  default = ""
 }

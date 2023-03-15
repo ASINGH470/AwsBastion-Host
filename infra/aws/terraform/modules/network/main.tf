@@ -18,7 +18,7 @@ locals {
   }
 }
 module "bastion_host" {
-  source        = "../"
+  source        = "../../resources/Bastion_Host"
   count         = local.feature_flags.provision_bastion_host == true ? 1 : 0
   ami           = var.ami
   instance_type = var.instance_type
