@@ -3,8 +3,8 @@ variable "security_group_name" {
   type        = string
   default     = "securitytesting"
 }
-variable "subnet_id" {
-  description = "The VPC Subnet ID to launch in."
+variable "vpc_id" {
+  description = "The ID of the VPC"
   type        = string
   default     = ""
 }
